@@ -3,8 +3,7 @@ import { useState } from "react";
 
 import { motion } from "motion/react";
 
-import "./App.css";
-import data from "./component/data";
+import data from "./data";
 
 export default function Accordion() {
   const [view, setView] = useState(0);
