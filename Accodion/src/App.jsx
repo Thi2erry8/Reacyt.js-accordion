@@ -1,7 +1,8 @@
 import Accordion from "./component/accordion";
+import Ratting from "./component/star-rating";
 
 function App() {
-  return <Accordion />;
+  return <Ratting noOfStars={10} />;
 }
 
 export default App;
